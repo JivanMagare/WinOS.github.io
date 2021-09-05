@@ -1,0 +1,364 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        background-color: rgb(83, 76, 76); 
+        overflow: hidden;
+}
+
+.screen{
+        width: 100%;
+        height: 620px;
+        border: 0px solid #fff;
+}
+
+#setImage{
+        background: url('image/WinImage.png') center no-repeat;
+        background-size: cover;
+}
+
+.menu{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(34, 32, 32);
+}
+
+/* image Edit Effect  start here */
+
+#logo{
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 8px;
+        float: left;
+}
+
+#search{
+         width: 30%;
+         height: 40px;
+         margin-left: 0px;
+         background-color: rgb(34, 32, 32);
+         border: 1px solid rgb(131, 124, 124);
+         font-size: 20px;
+         color: #fff;
+         float: left;
+         outline: none;
+}
+
+#ShowAndHide{
+                border: 0px solid #fff;
+                width: 50px;
+                height: 40px;
+                float: left;
+}
+#ShowAndHide:hover{
+        background-color: rgb(61, 57, 57);
+}
+
+#search:hover{
+                border: 1px solid rgb(209, 193, 193);
+                background-color: rgb(61, 57, 57);
+}
+
+table td{
+         height:38px;
+}
+
+table td:hover, table th:hover{
+        background-color: rgb(61, 57, 57);
+}
+
+.circle{
+        width: 15px;
+        height: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        box-shadow: 0px 0px 8px #fff;
+}
+
+#mail{
+        width: 35px;
+        height: 35px;
+}
+
+#edge{
+        width: 30px;
+        height: 30px;
+}
+
+#store{
+        width: 25px;
+        height: 25px;
+}
+
+#file{
+        width: 30px;
+        height: 30px;
+}
+
+#battery{
+        width: 30px;
+        height: 30px;
+}
+
+#wifi{
+        width: 20px;
+        height: 20px;
+}
+
+#speaker{
+        width: 20px;
+        height: 20px;
+}
+
+#lang{
+        width: 20px;
+        height: 20px;
+}
+
+#notifi{
+        width: 20px;
+        height: 20px;
+}
+
+#removehover{
+        background-color: rgb(34, 32, 32);
+}
+
+/* Main Menu start here */
+
+.mainMenu{
+        width: 600px;
+        height: 520px;
+        background-color: rgb(46, 43, 43);
+        opacity: 0.9;
+}
+
+
+.hide{
+        width: 600px;
+        height: 100px;
+}
+
+.first{
+        width: 280px;
+        height: 517px;
+        border: 0px solid red;
+        float: left;
+}
+
+.second{
+        width: 316px;
+        height: 516px;
+        border: 0px solid red;
+        float: right;
+}
+
+#list1 li{
+        list-style: none;  
+        width: 40px;
+        height: 40px;
+        border: 0px solid #fff;     
+}
+
+#menu1{
+        margin-top: 10px;
+        margin-left: 9px;
+        width: 20px;
+        height: 20px;
+}
+
+.same img{
+          width: 20px;
+          height: 20px;
+          margin-left: 8px;
+          margin-top: 15px;
+}
+
+.first ul li:hover{
+                background-color: rgb(61, 57, 57);
+}
+
+#dontHover{
+        background-color: rgb(46, 43, 43);
+}
+
+#list1{
+        float: left;
+}
+
+#list2{
+        border: 0px solid #fff;
+}
+
+#list2 tr{
+        height: 40px;
+}
+#list2 tr th img{
+                width: 20px;
+                height: 20px;
+}
+
+.addcolor{
+        color: #fff;
+        font-size: 13px;
+}
+
+.addcolor:hover >th{
+       background-color: rgb(88, 85, 85);
+       cursor: context-menu;
+}
+
+#h5Tag{
+        color: #fff;
+        margin-top: 10px;
+        margin-left: 3px;
+}
+
+#h5Tag:hover{ cursor: context-menu;}
+
+#office{
+                width: 200px;
+                height: 120px;
+                float: left;
+                margin-left: 3px;
+}
+
+#office:hover{
+        filter: grayscale(15%);
+}
+#mailbox{
+        background-color: rgb(88, 85, 85);
+        float: left;
+        margin-left: 3px;
+        height: 120px;
+        width: 100px;
+}
+
+#mailbox img{
+                width: 50px;
+                height: 50px;
+                margin-left: 25px;
+                margin-top: 30px;
+}
+
+#edgebox{
+        background-color: rgb(88, 85, 85);
+        float: left;
+        margin-left: 3px;
+        height: 120px;
+        width: 100px;
+        margin-top: 3px;
+}
+
+#edgebox img{
+        width: 50px;
+        height: 50px;
+        margin-left: 25px;
+        margin-top: 30px;
+}
+
+#h5Tag2{
+        margin-top: 213px;
+        color: #fff;
+        margin-left: 3px;
+}
+
+#h5Tag2:hover{ 
+        cursor: context-menu;
+}
+
+#gta{
+        background-color: rgb(88, 85, 85);
+        float: left;
+        margin-left: 3px;
+        height: 180px;
+        width: 300px;
+        margin-top: 3px;
+}
+
+#gta img{
+        width: 150px;
+        height: 150px;
+        margin-left: 70px;
+        margin-top: 17px;
+}
+
+.borderEffect:hover{
+        outline: 2px solid #fff;
+
+        box-shadow: 
+        inset 1em 2em 4em 0em rgb(141, 136, 136);
+
+}
+
+/* Main menu end here */
+
+/* wifi */
+.wifimenu{
+        width: 350px;
+        height: 518px;
+        background-color: rgb(34, 32, 32);;
+        border: 1px solid rgb(34, 32, 32);;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 64.20%;
+        opacity: 0.9;
+}
+
+.WifiConnect{
+        width: 350px;
+        height: 60px;
+        margin-top: 15px;
+}
+
+.WifiConnect:hover{
+        background-color: rgb(59, 55, 55);
+}
+
+.notconfig{
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 14px;
+        float: left;
+}
+
+.Redmi{
+       line-height: 60px;
+       margin-left: 55px;
+       color: #fff;
+       cursor: context-menu;
+       font-family: tahoma;
+}
+
+#hidden,#checkbox,#msg,#btn{display:none;}
+
+#btn{
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+        background-color: #5684b3;
+        border: none;
+        color: #fff;
+        font-family: tahoma;
+        margin-top: 30px;
+        margin-left: 200px;
+}
+#btn:hover{
+        cursor: context-menu; 
+        border: 2px solid #fff;
+        background-color: #6e97c0;
+}
+#checkbox{ float: left;}
+
+
+@media screen and (min-width: 984px)
+{
+ .wifimenu{
+         margin-left: 74.20%;
+ }       
+}

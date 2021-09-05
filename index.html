@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WinOS</title>
+        <link rel='stylesheet' type='text/css' href='style.css'>
+        <meta name='viewport' content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onload='hideMenu()'>
+
+        <div id='wifimenu' class='wifimenu'>
+                <div class='WifiConnect' id='wifiSize' onclick="connect()">
+                    <img class='notconfig' id='notconfig' src='image/notconfig.png'>
+                    <p class='Redmi'>Redmi</p>
+                    <p id='hidden'>Secured</p>
+                    <input type='checkbox' id='checkbox'>
+                    <p id='msg'>Connect automatically</p>
+                    <button  id='btn' type='submit'><!--get value using js --></button>
+                </div>
+        </div>
+        <div id='setImage' class='screen'>
+            <div class='hide'></div>
+            <div class='mainMenu' id='mainMenu'>
+                <div class='first'>
+                    <ul id='list1'>
+                        <li>
+                            <img id='menu1' src='image/menu.png'>
+                        </li>
+                        
+                        <li id='dontHover' style='height: 226px;'></li>
+                        
+                        <li onmouseover="hiddenMenu()" class='same' style='height: 50px;'>
+                            <img src='image/user.png'>
+                        </li>
+                        <li class='same' style='height: 50px;'>
+                            <img src='image/doc.png'>
+                        </li>
+                        <li class='same' style='height: 50px;'>
+                            <img src='image/pic.png'>
+                        </li>  
+                        <li class='same' style='height: 50px;'>
+                            <img src='image/setting.png'>
+                        </li>
+                        <li class='same' style='height: 50px;'>
+                            <img src='image/power.png'>
+                        </li>                      
+                    </ul>
+
+                   <table id='list2'>
+                       <tr height='50px' class='addcolor'>
+                           <th width='50px'>
+                              #
+                           </th>
+                           <th width='170px'></th>
+                       </tr>
+                       <tr height='50px' class='addcolor'>
+                        <th width='50px'>
+                            <img src='image/3d.png'>
+                        </th>
+                        <th width='170px' align='left'>3D Viewer</th>
+                    </tr>
+                    <tr height='50px' class='addcolor'>
+                        <th width='50px'>
+                           A
+                        </th>
+                        <th width='170px'></th>
+                    </tr>
+                    <tr height='50px' class='addcolor'>
+                        <th width='50px'>
+                            <img src='image/alarm.png'>
+                        </th>
+                        <th width='170px' align='left'>Alarm & Clock</th>
+                    </tr>
+                    <tr height='50px' class='addcolor'>
+                        <th width='50px'>
+                          C
+                        </th>
+                        <th width='170px'></th>
+                    </tr>
+                    <tr height='50px' class='addcolor' id='CalShow'>
+                        <th width='50px'>
+                            <img src='image/clac.png'>
+                        </th>
+                        <th width='170px' align='left'>Calculator</th>
+                    </tr>
+                    <tr height='50px' class='addcolor'>
+                        <th width='50px'>
+                            <img src='image/calen.png'>
+                        </th>
+                        <th width='170px' align='left'>Calendar</th>
+                    </tr>
+                    <tr height='50px' class='addcolor'>
+                        <th width='50px'>
+                            <img src='image/cam.png'>
+                        </th>
+                        <th width='170px' align='left'>Camera</th>
+                    </tr>
+                    <tr height='50px' class='addcolor'>
+                        <th width='50px'>
+                           G
+                        </th>
+                        <th width='170px'></th>
+                    </tr>
+                    <tr height='50px' class='addcolor'>
+                        <th width='50px'>
+                            <img src='image/music.png'>
+                        </th>
+                        <th width='170px' align='left'>Groove Music</th>
+                    </tr><tr height='50px' class='addcolor'>
+                        <th width='50px'>
+                            <img src='image/google.png'>
+                        </th>
+                        <th width='170px' align='left'>Google Chrome</th>
+                    </tr>
+                    <tr height='50px' class='addcolor'>
+                        <th width='50px'>
+                            M
+                        </th>
+                        <th width='170px'></th>
+                    </tr>
+                   </table>
+
+                </div>
+                <div class='second'>
+                   <h5 id='h5Tag'>productivity</h3>
+                    <br><br>
+                    <img class='borderEffect' id='office' src='image/office.jpg'>
+                    
+                    <div class='borderEffect' id='mailbox'>
+                        <img src='image/mail.jpg'>
+                    </div>
+
+                    <div class='borderEffect' id='edgebox'>
+                        <img src='image/edge.png'>
+                    </div>
+
+                    <br><br>
+                    <h5 id='h5Tag2'>Explore</h5>
+
+                    <div class='borderEffect' id='gta'>
+                        <img src='image/gta.jpg'>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+       
+        
+        <div class='menu' >
+       
+            <div id='ShowAndHide' onmouseout='previousLogo()' onmouseover='changeLogo()'>
+                <img title='Start' id='logo' src='image/logo.png' >
+            </div>
+
+                    <input title='Search' type='text' id='search' placeholder="  Type here to search">
+
+            <table>
+                <td title='Talk to Cortana' width='50px' align="middle">
+                    <div class='circle'></div>
+                </td>
+                <th title="Task View" width='50px' id='task' onmouseout='TaskViewReset()' onmouseover='TaskView()'>
+                   
+                </th>
+                <th title='Mail' width='50px'>
+                    <img id='mail' src='image/mail.jpg'>
+                </th>
+                <th title='Microsoft Edge' width='50px'>
+                    <img id='edge' src='image/edge.png'>
+                </th>
+                <th title='Microsoft Store' width='50px'>
+                    <img id='store' src='image/store.png'>
+                </th>
+                <th title='File Explorer' width='50px'>
+                    <img id='file' src='image/file.jpg'>
+                </th>
+
+                <th width='300px' id='removehover'>
+                  <!-- for align right-->
+                </th>
+
+                <th title='8% available (plugged in)' width='50px'>
+                    <img id='battery' src='image/battery.png'>
+                </th>
+                <th id='wifiForJS' title='wifi' width='50px'>
+                    <img id='wifi' src='image/wifioff.png'>
+                </th>
+                <th title='spakers: 14%' width='50px'>
+                    <img id='speaker' src='image/speaker.png'>
+                </th>
+                <th title='English (United States) US keyboard' width='50px'>
+                    <img id='lang' src='image/lang.png'>
+                </th>
+                <th id='time' title='Date & Time' width='100px'>
+                   
+                </th>
+                <th title='1 new notification' width='50px'>
+                    <img id='notifi' src='image/notification.png'>
+                </th>
+            </table>
+        </div>
+
+        <script src='script.js'></script>
+    </body>
+</html>
