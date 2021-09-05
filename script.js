@@ -1,3 +1,4 @@
+alert("This website is specially designed for Laptop, PC. If you want to use all the features of this website then use laptop or PC.");
 
 function changeLogo()
 {
