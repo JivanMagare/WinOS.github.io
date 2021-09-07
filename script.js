@@ -157,28 +157,3 @@ function connect()
 }
 
 // show & hide
-
-let moveInput = document.querySelector('.Calculator');
-
-moveInput.addEventListener('dblclick', mousedown);
-
-function mousedown()
-{
-    moveInput.addEventListener('mousemove', (e) =>{
-        let x = e.clientX - 175 + 'px';
-        let y = e.clientY - 250 + 'px';
-
-        this.style.left = x;
-        this.style.top = y;
-    });
-
-    moveInput.addEventListener('mouseup',(ev) => {
-  
-            let x = ev.clientX - 175 + 'px';
-            let y = ev.clientY - 250 + 'px';
-    
-            this.style.left = x;
-            this.style.top = y;
-    });
-
-}
