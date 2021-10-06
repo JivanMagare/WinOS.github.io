@@ -363,10 +363,3 @@ table td:hover, table th:hover{
  }       
 }
 
-
-@media screen and (max-width: 985px)
-{
-    .screen{
-            height: 900px;
-    }
-}
