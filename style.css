@@ -362,3 +362,11 @@ table td:hover, table th:hover{
          margin-left: 74.20%;
  }       
 }
+
+
+@media screen and (max-width: 985px)
+{
+    .screen{
+            height: 750px;
+    }
+}
