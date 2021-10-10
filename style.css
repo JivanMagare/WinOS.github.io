@@ -363,3 +363,23 @@ table td:hover, table th:hover{
  }       
 }
 
+@media only screen  and (min-width: 1370px)  and (max-width: 1605px)  
+{
+        #setImage{
+                height: 95vh;
+        }
+        
+        .hide{
+                height: 235px;
+        }
+
+        .wifimenu{
+                height: 600px;
+                margin-top: 151px;
+                width: 400px;
+        }
+
+        .WifiConnect{
+                width: 400px;
+        }
+}  
